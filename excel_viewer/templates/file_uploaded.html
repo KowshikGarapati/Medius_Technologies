@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Uploaded</title>
+</head>
+<body>
+<style>
+table, th, td {
+      border: 1px solid black;
+    text-align:center;
+    }
+    th{
+        background-color: #ffff66;
+        
+    }
+table{
+      margin-left: auto;
+      margin-right: auto;
+    width:80%;
+    }
+
+</style>
+    <h1 style="text-align:center;font_family:bold">File Uploaded Successfully</h1>
+    <h2>{{ tablename}}</h2>
+    <table class="center">
+        {{ html_table|safe  }}
+    </table>
+</body>
+</html>
