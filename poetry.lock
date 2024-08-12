@@ -79,3 +79,8 @@ files = [
 lock-version = "2.0"
 python-versions = "^3.10"
 content-hash = "643178dcdaf8f3404726489899243dd12a8d14be5b323dfe04a02a9c0d9e5e94"
+
+[[package]]
+name = "gunicorn"
+version = "20.1.0"
+optional = False
